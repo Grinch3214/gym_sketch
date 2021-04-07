@@ -651,6 +651,7 @@ font-family: 'Roboto', sans-serif;*/
 			width: 100%;
 			bottom: -9px;
 			left: 0;
+			z-index: 1;
 			background: #20191b;
 			box-shadow: 0px 8px 7px 0px rgba(0,0,1,0.75);
 		}
@@ -768,7 +769,7 @@ font-family: 'Roboto', sans-serif;*/
 			border-left-color: #fff;
 		}
 /*----------------------*/
-/*block nomber 5*/
+/*block nomber 6*/
 		.main__background6 {
 			background: #20191b;
 			background: url(..//img/bottom_background.jpg) no-repeat 0/cover;
