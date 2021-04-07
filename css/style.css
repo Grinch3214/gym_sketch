@@ -17,6 +17,11 @@ font-family: 'Roboto', sans-serif;*/
 		ul li{list-style: none;}
 		img{vertical-align: top;}
 		h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+		.clearfix:after {
+			content: "";
+			clear: both;
+			display: block;
+		}
 /*--------------------*/
 
 		body{
@@ -438,7 +443,7 @@ font-family: 'Roboto', sans-serif;*/
 		}
 		.schedule__box>ul li {
 			font-family: 'Roboto', sans-serif;
-			width: 255px;
+			flex: 0 0 255px;
 			font-size: 0;
 			background-color: #b8b2b2;
 			text-transform: uppercase;
@@ -532,7 +537,7 @@ font-family: 'Roboto', sans-serif;*/
 			flex-wrap: wrap;
 		}
 		.calendar__days li {
-			width: 19px;
+			flex: 0 0 19px;
 			margin: 6px 0 5.5px 26px;
 			font-size: 16px;
 			font-weight: 300;
